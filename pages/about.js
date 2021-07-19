@@ -1,7 +1,7 @@
 import useWeatherForecastRepository from '../repositories/useWeatherForecastRepository'
 import AppHeader from '../components/AppHeader'
 
-export default function Home() {
+export default function About() {
   const { data, isLoading, isError } = useWeatherForecastRepository()
   return (
     <div>
